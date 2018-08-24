@@ -2,6 +2,10 @@ import React from 'react'
 
 import Users from './Users'
 import LoadWarrior from './LoadWarrior'
+import LoadRouge from './LoadRouge'
+import LoadMage from './LoadMage'
+import LoadHuman from './LoadHuman'
+
 
 class App extends React.Component {
 
@@ -11,6 +15,9 @@ class App extends React.Component {
                 <h1>Characters</h1>
                 <Users />
                 <LoadWarrior />
+                <LoadRouge />
+                <LoadMage />
+                <LoadHuman />
             </div>
         )
     }
