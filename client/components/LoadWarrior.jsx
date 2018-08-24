@@ -31,15 +31,6 @@ class LoadWarrior extends Component {
 
 export default LoadWarrior
 
-    // < ul >
-    // {
-    //     this.state.characters.map((data, index) => {
-    //         return (<li key={index}>
-    //             {data.warrior}
-    //         </li>)
-    //     })
-    // }
-    //             </ul >
 
 
 
