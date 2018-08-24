@@ -24,7 +24,7 @@ class LoadWarrior extends Component {
                 </form>
 
             </div>
-        )
+        ) 
     }
 }
 
