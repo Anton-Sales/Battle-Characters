@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server & webpack --watch",
-    "webpack": "webpack",
+    "dev": "nodemon server",
+    "webpack": "webpack --watch",
     "knex": "knex"
   },
   "babel": {
@@ -32,6 +32,7 @@
     "redux-thunk": "^2.3.0",
     "sqlite3": "^4.0.2",
     "superagent": "^3.8.3",
+    "terminal-sweetness": "^1.0.3",
     "webpack": "^2.3.3"
   }
 }
