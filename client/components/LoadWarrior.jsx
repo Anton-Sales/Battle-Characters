@@ -6,7 +6,6 @@ class LoadWarrior extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            warrior: []
         }
         this.loadWarrior = this.loadWarrior.bind(this)
     }
@@ -14,6 +13,7 @@ class LoadWarrior extends Component {
     loadWarrior(e) {
         e.preventDefault()
         this.setState({ warrior: characters.warrior })
+        console.log(this.state.warrior)
     }
 
     render() {
@@ -22,9 +22,10 @@ class LoadWarrior extends Component {
                 <form onSubmit={(e) => this.loadWarrior(e)}>
                     <input type="submit" value="Load Warrior" />
                 </form>
-
+                {this.state.warrior &&
+                    <p> character: {this.state.warrior.name}</p>}
             </div>
-        ) 
+        )
     }
 }
 
