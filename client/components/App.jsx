@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Users from './Users'
-import Character from './Character'
+import LoadWarrior from './LoadWarrior'
 
 class App extends React.Component {
 
@@ -10,7 +10,7 @@ class App extends React.Component {
             <div>
                 <h1>Characters</h1>
                 <Users />
-                <Character />
+                <LoadWarrior />
             </div>
         )
     }

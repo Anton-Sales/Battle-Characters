@@ -1,22 +1,18 @@
 {
     "characters": {
         "warrior": {
-            "name": "warrior",
             "health": 100,
             "attack": 20
         },
         "rouge": {
-            "name": "rouge",
             "health": 80,
             "attack": 10
         },
         "mage": {
-            "name": "mage",
             "health": 60,
             "attack": 30
         },
         "human": {
-            "name": "human",
             "health": 50,
             "attack": 10
         }
