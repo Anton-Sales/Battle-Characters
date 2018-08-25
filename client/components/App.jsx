@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Users from './Users'
+import Characters from './Characters'
 import LoadWarrior from './LoadWarrior'
 import LoadRouge from './LoadRouge'
 import LoadMage from './LoadMage'
@@ -13,7 +13,7 @@ class App extends React.Component {
         return(
             <div>
                 <h1>Characters</h1>
-                <Users />
+                <Characters />
                 <LoadWarrior />
                 <LoadRouge />
                 <LoadMage />
